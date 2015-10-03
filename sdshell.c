@@ -27,7 +27,7 @@ int (*builtin_functions[])(char**) = {
 	&sdshell_cd,
 	&sdshell_help,
 	&sdshell_exit
-}
+};
 
 //	cd: Change directory is also a builtin function.
 //	the reason why cd is a buitin function is simple. when a new process is created, the parent process forks a child process 
